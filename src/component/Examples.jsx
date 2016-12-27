@@ -6,7 +6,7 @@ class Examples extends Component {
 
     return(
       <div>
-        <h3>Examples</h3>
+        <h3 className ="examples">Examples</h3>
       </div>
     )
   }

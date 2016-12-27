@@ -5,12 +5,18 @@ class Nav extends Component {
   render(){
     return(
       <div>
-        <h1>NavBar</h1>
-        <IndexLink to = '/' activeClassName = 'active' activeStyle={{fontWeight: 'bold'}}>Get Weather</IndexLink>
-        <IndexLink to = '/about' activeClassName = 'active' activeStyle={{fontWeight: 'bold'}}>About</IndexLink>
-        <IndexLink to = '/Examples' activeClassName = 'active' activeStyle={{fontWeight: 'bold'}}>Examples</IndexLink>
-
-      </div>
+        <nav className="navbar navbar-default">
+          <div className="container-fluid">
+            <div className="navbar-header">
+              <ul className="nav navbar-nav">
+                <li><IndexLink to = '/' className="active">Get Weather <span className="sr-only">(current)</span></IndexLink></li>
+                <li><IndexLink to = '/about' >About</IndexLink></li>
+                <li><IndexLink to = '/Examples' >Examples</IndexLink></li>
+              </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
     )
   }
 }

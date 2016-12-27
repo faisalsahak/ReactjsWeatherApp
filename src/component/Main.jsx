@@ -8,7 +8,6 @@ class Main extends Component {
     return(
       <div>
         <Nav />
-        <h2>Main components</h2>
         {this.props.children}
       </div>
     )
