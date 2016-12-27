@@ -2,11 +2,7 @@ import React, {Component} from 'react';
 import {Link, IndexLink} from 'react-router'
 
 class Nav extends Component {
-
-
   render(){
-
-
     return(
       <div>
         <h1>NavBar</h1>

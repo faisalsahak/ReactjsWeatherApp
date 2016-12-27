@@ -2,13 +2,10 @@ import React, {Component} from 'react';
 import WeatherForm from './WeatherForm.jsx';
 import WeatherMessage from './WeatherMessage.jsx';
 import openWeatherMap from '../api/openWeatherMap.jsx';
-//import axios from 'axios';
-
 
 class Weather extends Component {
   constructor(props){
     super(props);
-  //  this.handleSearch = this.handleSearch.bind(this)
     this.state = {
       isLoading: false
     }

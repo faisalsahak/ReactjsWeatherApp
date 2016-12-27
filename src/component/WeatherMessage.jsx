@@ -4,8 +4,6 @@ import fetch from 'isomorphic-fetch';
 
 class WeatherMessage extends Component {
 
-
-
   render(){
     var {temp, location} = this.props
     return(

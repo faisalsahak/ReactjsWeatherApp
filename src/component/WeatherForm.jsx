@@ -8,7 +8,6 @@ class WeatherForm extends Component {
     }
   }
 
-
   weatherSearch(event){
     event.preventDefault()
 
@@ -18,18 +17,6 @@ class WeatherForm extends Component {
       this.refs.location.value = '';
       this.props.onSearch(location)
     }
-
-    // fetch('http://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=5101568c0887e9cca6a03649315d4924')
-    // .then(response => {
-    //   return response.text();
-    // })
-    // .then(responseText => {
-    //   const weather = JSON.parse(responseText);
-    //   console.log("stories", stories);
-    //   this.setState({
-    //     weather: weather
-    //   })
-    // });
 
   }
 
