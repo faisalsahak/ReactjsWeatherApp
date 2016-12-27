@@ -10,7 +10,7 @@ class WeatherMessage extends Component {
     var {temp, location} = this.props
     return(
       <div>
-        <h3>it is {temp} °C in {location}</h3>
+        <h3>It Is {temp} °C In {location}</h3>
       </div>
     )
   }
