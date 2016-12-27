@@ -1,9 +1,18 @@
-import React, {Component} from 'react';
+// Application entrypoint.
 
-class App extends Component {
+// Load up the application styles
+require("../styles/application.scss");
+
+// Render the top-level React component
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App.jsx';
+import {Route, Router, IndexRoute, hashHistory} from 'react-router';
+import Main from './component/Main.jsx';
 
 
-
-}
-
-export default App
+ReactDOM.render(
+  <Router history = {hashHistory}>
+    <Route path = '/' component = {Main}></Route>
+  </Router>,
+  document.getElementById('react-root'));
