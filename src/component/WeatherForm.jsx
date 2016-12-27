@@ -6,7 +6,7 @@ class WeatherForm extends Component {
 
     return(
       <div>
-        <form className= "form-control">
+        <form>
           <input type = 'text' placeholder= 'Enter City Name' />
           <button className= "btn btn-primary"> Get Weather</button>
         </form>
