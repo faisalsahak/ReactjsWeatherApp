@@ -11,7 +11,7 @@ import {Route, Router, IndexRoute, hashHistory} from 'react-router';
 import Main from './component/Main.jsx';
 import Weather from './component/Weather.jsx';
 import About from './component/About.jsx';
-import Examples from './component/Examples.jsx'
+import Examples from './component/Examples.jsx';
 
 
 ReactDOM.render(
