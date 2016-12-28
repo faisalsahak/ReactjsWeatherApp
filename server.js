@@ -4,8 +4,6 @@ var config = require('./webpack.config');
 var express = require('express');
 var app = express();
 
-const port = process.env.PORT || 3000
-
 
 
 new WebpackDevServer(webpack(config), {
@@ -15,10 +13,10 @@ new WebpackDevServer(webpack(config), {
       poll: 1000
     }
   })
-  .listen(port, '0.0.0.0', function (err, result) {
+  .listen(3000, '0.0.0.0', function (err, result) {
     if (err) {
       console.log(err);
     }
 
-    console.log('Running at ', port);
+    console.log('Running at http://0.0.0.0:3000');
   });
