@@ -4,7 +4,10 @@
   "description": "ReactJs Weather App",
   "scripts": {
     "lint": "eslint src",
+    "dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "postinstall": "webpack -p",
     "start": "node server.js"
+
   },
   "repository": {
     "type": "git",
