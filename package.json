@@ -1,14 +1,12 @@
 {
-  "name": "react-weatherApp",
+  "name": "react-simple-weather-app",
   "version": "1.0.0",
-  "description": "ReactJs Weather App",
+  "description": "ReactJS weather app",
   "scripts": {
     "lint": "eslint src",
-    "start": "node server.js",
   },
   "repository": {
     "type": "git",
-    "url": ""
   },
   "keywords": [
     "react",
@@ -19,14 +17,11 @@
     "edit",
     "webpack"
   ],
-  "author": "Faisal Sahak sahak.faisal@gmail.com",
+  "author": "Noah-Jerome Lotzer <n.lotzer@neusta.de>",
   "license": "MIT",
-  "bugs": {
-    "url": ""
   },
-  "homepage": "",
   "engines": {
-    "node": ">=6.0.0"
+    "node": "4.1.1"
   },
   "devDependencies": {
     "babel-core": "6.10.4",
