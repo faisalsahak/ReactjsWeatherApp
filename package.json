@@ -4,7 +4,7 @@
   "description": "ReactJs Weather App",
   "scripts": {
     "lint": "eslint src",
-    "postinstall": "webpack -p",
+    "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress",
     "start": "node server.js"
 
   },
