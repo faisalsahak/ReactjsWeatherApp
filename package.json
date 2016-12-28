@@ -4,13 +4,13 @@
   "description": "ReactJs Weather App",
   "scripts": {
     "lint": "eslint src",
-    "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress",
-    "start": "node server.js"
+    "start": "node server.js",
+    
 
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/noahlotzer/react-simple-boilerplate.git"
+    "url": ""
   },
   "keywords": [
     "react",
@@ -24,9 +24,9 @@
   "author": "Faisal Sahak sahak.faisal@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/noahlotzer/react-simple-boilerplate/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/noahlotzer/react-simple-boilerplate",
+  "homepage": "",
   "engines": {
     "node": ">=6.0.0"
   },
